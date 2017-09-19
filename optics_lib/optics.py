@@ -28,3 +28,21 @@ def _expand_cluster_order(objects_manager, obj, eps, min_pts, objects_storage):
             objects_storage.append(current_obj)
             if current_obj.core_distance is not None:
                 ordered_seeds.update(objects_manager, neighbors, current_obj)
+
+
+def extract_clusters_and_noise(cluster_ordering, eps):
+    clusters = []
+    noise = []
+    current_cluster = noise
+
+    for obj in cluster_ordering:
+        if obj.reachability_distance is None or obj.reachability_distance > eps:
+            if obj.core_distance is not None and obj.core_distance <= eps:
+                clusters.append([obj.point])
+                current_cluster = clusters[-1]
+            else:
+                noise.append(obj.point)
+        else:
+            current_cluster.append(obj.point)
+
+    return clusters, noise
