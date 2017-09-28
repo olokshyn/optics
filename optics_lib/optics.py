@@ -38,11 +38,11 @@ def extract_clusters_and_noise(cluster_ordering, eps):
     for obj in cluster_ordering:
         if obj.reachability_distance is None or obj.reachability_distance > eps:
             if obj.core_distance is not None and obj.core_distance <= eps:
-                clusters.append([obj.point])
+                clusters.append([obj])
                 current_cluster = clusters[-1]
             else:
-                noise.append(obj.point)
+                noise.append(obj)
         else:
-            current_cluster.append(obj.point)
+            current_cluster.append(obj)
 
     return clusters, noise
