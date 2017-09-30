@@ -1,0 +1,112 @@
+Atom
+Best eps: 0.75
+Best min_pts: 1
+Best erroneously clustered points: 628
+
+Best eps: 0.75
+Best min_pts: 1
+Best erroneously clustered points: 790 (98.75%)
+Best noise count: 628
+
+-----------------------------
+
+Chainlink
+Best eps: 0.15
+Best min_pts: 1
+Best erroneously clustered points: 0
+
+Best eps: 0.15
+Best min_pts: 1
+Best erroneously clustered points: 0 (0.0%)
+Best noise count: 0
+
+-----------------------------
+
+EngyTime
+Failed: needs too much computational time
+
+-----------------------------
+
+GolfBall
+Best eps: 0.1
+Best min_pts: 1
+Best erroneously clustered points: 0
+
+Best eps: 0.1
+Best min_pts: 1
+Best erroneously clustered points: 0 (0.0%)
+Best noise count: 0
+
+-----------------------------
+
+Hepta
+Best eps: 0.75
+Best min_pts: 1
+Best erroneously clustered points: 0
+
+Best eps: 0.75
+Best min_pts: 1
+Best erroneously clustered points: 0 (0.0%)
+Best noise count: 0
+
+-----------------------------
+
+Lsun
+Best eps: 0.45
+Best min_pts: 1
+Best erroneously clustered points: 0
+
+Best eps: 0.45
+Best min_pts: 1
+Best erroneously clustered points: 0 (0.0%)
+Best noise count: 0
+
+-----------------------------
+
+Target
+Best eps: 0.2
+Best min_pts: 1
+Best erroneously clustered points: 0
+
+Best eps: 0.25
+Best min_pts: 1
+Best erroneously clustered points: 0 (0.0%)
+Best noise count: 0
+
+-----------------------------
+
+Tetra
+Best eps: 0.4
+Best min_pts: 1
+Best erroneously clustered points: 20
+
+Best eps: 0.5
+Best min_pts: 1
+Best erroneously clustered points: 0 (0.0%)
+Best noise count: 0
+
+-----------------------------
+
+TwoDiamonds
+Best eps: 0.1
+Best min_pts: 1
+Best erroneously clustered points: 14
+
+Best eps: 0.15
+Best min_pts: 1
+Best erroneously clustered points: 0 (0.0%)
+Best noise count: 0
+
+-----------------------------
+
+WingNut
+Best eps: 0.25
+Best min_pts: 1
+Best erroneously clustered points: 0
+
+Best eps: 0.25
+Best min_pts: 1
+Best erroneously clustered points: 0 (0.0%)
+Best noise count: 0
+
+-----------------------------
