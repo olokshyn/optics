@@ -1,4 +1,5 @@
 import sys
+import os
 
 import matplotlib.pyplot as plt
 
@@ -79,15 +80,14 @@ def perform_clustering(data_filename, eps, min_pts, cluster_labels_filename='', 
 
 
 def main(argv):
-    data_filename = argv[1]
+    data_set_name = argv[1]
+    data_filename = os.path.join('data/FCPS/01FCPSdata', data_set_name + '.lrn')
     min_eps = float(argv[2])
     max_eps = float(argv[3])
     step_eps = float(argv[4])
     min_min_pts = int(argv[5])
     max_min_pts = int(argv[6])
-    cluster_labels_filename = ''
-    if len(argv) >= 8:
-        cluster_labels_filename = argv[7]
+    cluster_labels_filename = os.path.join('data/FCPS/01FCPSdata', data_set_name + '.cls')
 
     best_eps = 0.0
     best_min_pts = 0.0

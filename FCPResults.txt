@@ -23,7 +23,11 @@ Best noise count: 0
 -----------------------------
 
 EngyTime
-Failed: needs too much computational time
+
+Best eps: 0.75
+Best min_pts: 1
+Best erroneously clustered points: 3 (0.0732421875%)
+Best noise count: 3
 
 -----------------------------
 
